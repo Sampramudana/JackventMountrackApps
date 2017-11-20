@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA42FA081FBF9EBE00E9CEA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA42FA071FBF9EBE00E9CEA2 /* AppDelegate.swift */; };
+		FA42FA0A1FBF9EBE00E9CEA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA42FA091FBF9EBE00E9CEA2 /* ViewController.swift */; };
+		FA42FA0D1FBF9EBE00E9CEA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA42FA0B1FBF9EBE00E9CEA2 /* Main.storyboard */; };
+		FA42FA0F1FBF9EBE00E9CEA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA42FA0E1FBF9EBE00E9CEA2 /* Assets.xcassets */; };
+		FA42FA121FBF9EBE00E9CEA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA42FA101FBF9EBE00E9CEA2 /* LaunchScreen.storyboard */; };
+		FA42FA1D1FBF9EBE00E9CEA2 /* Jackvent___MounTrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA42FA1C1FBF9EBE00E9CEA2 /* Jackvent___MounTrackTests.swift */; };
+		FA42FA281FBF9EBE00E9CEA2 /* Jackvent___MounTrackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA42FA271FBF9EBE00E9CEA2 /* Jackvent___MounTrackUITests.swift */; };
+		FAF6A61C1FC19E770025B4B3 /* JackventTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF6A61B1FC19E770025B4B3 /* JackventTableViewController.swift */; };
+		FAF6A61E1FC19E910025B4B3 /* MapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF6A61D1FC19E910025B4B3 /* MapKitViewController.swift */; };
+		FAF6A6201FC19EA50025B4B3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF6A61F1FC19EA50025B4B3 /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA42FA191FBF9EBE00E9CEA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA42F9FC1FBF9EBE00E9CEA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA42FA031FBF9EBE00E9CEA2;
+			remoteInfo = "Jackvent : MounTrack";
+		};
+		FA42FA241FBF9EBE00E9CEA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA42F9FC1FBF9EBE00E9CEA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA42FA031FBF9EBE00E9CEA2;
+			remoteInfo = "Jackvent : MounTrack";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA42FA041FBF9EBE00E9CEA2 /* Jackvent : MounTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jackvent : MounTrack.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA42FA071FBF9EBE00E9CEA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA42FA091FBF9EBE00E9CEA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA42FA0C1FBF9EBE00E9CEA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA42FA0E1FBF9EBE00E9CEA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA42FA111FBF9EBE00E9CEA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA42FA131FBF9EBE00E9CEA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA42FA181FBF9EBE00E9CEA2 /* Jackvent : MounTrackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jackvent : MounTrackTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA42FA1C1FBF9EBE00E9CEA2 /* Jackvent___MounTrackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Jackvent___MounTrackTests.swift"; sourceTree = "<group>"; };
+		FA42FA1E1FBF9EBE00E9CEA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA42FA231FBF9EBE00E9CEA2 /* Jackvent : MounTrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jackvent : MounTrackUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA42FA271FBF9EBE00E9CEA2 /* Jackvent___MounTrackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Jackvent___MounTrackUITests.swift"; sourceTree = "<group>"; };
+		FA42FA291FBF9EBE00E9CEA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF6A61B1FC19E770025B4B3 /* JackventTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JackventTableViewController.swift; sourceTree = "<group>"; };
+		FAF6A61D1FC19E910025B4B3 /* MapKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitViewController.swift; sourceTree = "<group>"; };
+		FAF6A61F1FC19EA50025B4B3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA42FA011FBF9EBE00E9CEA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA42FA151FBF9EBE00E9CEA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA42FA201FBF9EBE00E9CEA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA42F9FB1FBF9EBE00E9CEA2 = {
+			isa = PBXGroup;
+			children = (
+				FA42FA061FBF9EBE00E9CEA2 /* Jackvent : MounTrack */,
+				FA42FA1B1FBF9EBE00E9CEA2 /* Jackvent : MounTrackTests */,
+				FA42FA261FBF9EBE00E9CEA2 /* Jackvent : MounTrackUITests */,
+				FA42FA051FBF9EBE00E9CEA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA42FA051FBF9EBE00E9CEA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA42FA041FBF9EBE00E9CEA2 /* Jackvent : MounTrack.app */,
+				FA42FA181FBF9EBE00E9CEA2 /* Jackvent : MounTrackTests.xctest */,
+				FA42FA231FBF9EBE00E9CEA2 /* Jackvent : MounTrackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA42FA061FBF9EBE00E9CEA2 /* Jackvent : MounTrack */ = {
+			isa = PBXGroup;
+			children = (
+				FA42FA071FBF9EBE00E9CEA2 /* AppDelegate.swift */,
+				FA42FA091FBF9EBE00E9CEA2 /* ViewController.swift */,
+				FAF6A61B1FC19E770025B4B3 /* JackventTableViewController.swift */,
+				FAF6A61D1FC19E910025B4B3 /* MapKitViewController.swift */,
+				FAF6A61F1FC19EA50025B4B3 /* DetailViewController.swift */,
+				FA42FA0B1FBF9EBE00E9CEA2 /* Main.storyboard */,
+				FA42FA0E1FBF9EBE00E9CEA2 /* Assets.xcassets */,
+				FA42FA101FBF9EBE00E9CEA2 /* LaunchScreen.storyboard */,
+				FA42FA131FBF9EBE00E9CEA2 /* Info.plist */,
+			);
+			path = "Jackvent : MounTrack";
+			sourceTree = "<group>";
+		};
+		FA42FA1B1FBF9EBE00E9CEA2 /* Jackvent : MounTrackTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA42FA1C1FBF9EBE00E9CEA2 /* Jackvent___MounTrackTests.swift */,
+				FA42FA1E1FBF9EBE00E9CEA2 /* Info.plist */,
+			);
+			path = "Jackvent : MounTrackTests";
+			sourceTree = "<group>";
+		};
+		FA42FA261FBF9EBE00E9CEA2 /* Jackvent : MounTrackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA42FA271FBF9EBE00E9CEA2 /* Jackvent___MounTrackUITests.swift */,
+				FA42FA291FBF9EBE00E9CEA2 /* Info.plist */,
+			);
+			path = "Jackvent : MounTrackUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA42FA031FBF9EBE00E9CEA2 /* Jackvent : MounTrack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA42FA2C1FBF9EBE00E9CEA2 /* Build configuration list for PBXNativeTarget "Jackvent : MounTrack" */;
+			buildPhases = (
+				FA42FA001FBF9EBE00E9CEA2 /* Sources */,
+				FA42FA011FBF9EBE00E9CEA2 /* Frameworks */,
+				FA42FA021FBF9EBE00E9CEA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jackvent : MounTrack";
+			productName = "Jackvent : MounTrack";
+			productReference = FA42FA041FBF9EBE00E9CEA2 /* Jackvent : MounTrack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA42FA171FBF9EBE00E9CEA2 /* Jackvent : MounTrackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA42FA2F1FBF9EBE00E9CEA2 /* Build configuration list for PBXNativeTarget "Jackvent : MounTrackTests" */;
+			buildPhases = (
+				FA42FA141FBF9EBE00E9CEA2 /* Sources */,
+				FA42FA151FBF9EBE00E9CEA2 /* Frameworks */,
+				FA42FA161FBF9EBE00E9CEA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA42FA1A1FBF9EBE00E9CEA2 /* PBXTargetDependency */,
+			);
+			name = "Jackvent : MounTrackTests";
+			productName = "Jackvent : MounTrackTests";
+			productReference = FA42FA181FBF9EBE00E9CEA2 /* Jackvent : MounTrackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA42FA221FBF9EBE00E9CEA2 /* Jackvent : MounTrackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA42FA321FBF9EBE00E9CEA2 /* Build configuration list for PBXNativeTarget "Jackvent : MounTrackUITests" */;
+			buildPhases = (
+				FA42FA1F1FBF9EBE00E9CEA2 /* Sources */,
+				FA42FA201FBF9EBE00E9CEA2 /* Frameworks */,
+				FA42FA211FBF9EBE00E9CEA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA42FA251FBF9EBE00E9CEA2 /* PBXTargetDependency */,
+			);
+			name = "Jackvent : MounTrackUITests";
+			productName = "Jackvent : MounTrackUITests";
+			productReference = FA42FA231FBF9EBE00E9CEA2 /* Jackvent : MounTrackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA42F9FC1FBF9EBE00E9CEA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Sam Pramudana";
+				TargetAttributes = {
+					FA42FA031FBF9EBE00E9CEA2 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					FA42FA171FBF9EBE00E9CEA2 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA42FA031FBF9EBE00E9CEA2;
+					};
+					FA42FA221FBF9EBE00E9CEA2 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA42FA031FBF9EBE00E9CEA2;
+					};
+				};
+			};
+			buildConfigurationList = FA42F9FF1FBF9EBE00E9CEA2 /* Build configuration list for PBXProject "Jackvent : MounTrack" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA42F9FB1FBF9EBE00E9CEA2;
+			productRefGroup = FA42FA051FBF9EBE00E9CEA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA42FA031FBF9EBE00E9CEA2 /* Jackvent : MounTrack */,
+				FA42FA171FBF9EBE00E9CEA2 /* Jackvent : MounTrackTests */,
+				FA42FA221FBF9EBE00E9CEA2 /* Jackvent : MounTrackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA42FA021FBF9EBE00E9CEA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA42FA121FBF9EBE00E9CEA2 /* LaunchScreen.storyboard in Resources */,
+				FA42FA0F1FBF9EBE00E9CEA2 /* Assets.xcassets in Resources */,
+				FA42FA0D1FBF9EBE00E9CEA2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA42FA161FBF9EBE00E9CEA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA42FA211FBF9EBE00E9CEA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA42FA001FBF9EBE00E9CEA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA42FA0A1FBF9EBE00E9CEA2 /* ViewController.swift in Sources */,
+				FA42FA081FBF9EBE00E9CEA2 /* AppDelegate.swift in Sources */,
+				FAF6A6201FC19EA50025B4B3 /* DetailViewController.swift in Sources */,
+				FAF6A61E1FC19E910025B4B3 /* MapKitViewController.swift in Sources */,
+				FAF6A61C1FC19E770025B4B3 /* JackventTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA42FA141FBF9EBE00E9CEA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA42FA1D1FBF9EBE00E9CEA2 /* Jackvent___MounTrackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA42FA1F1FBF9EBE00E9CEA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA42FA281FBF9EBE00E9CEA2 /* Jackvent___MounTrackUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA42FA1A1FBF9EBE00E9CEA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA42FA031FBF9EBE00E9CEA2 /* Jackvent : MounTrack */;
+			targetProxy = FA42FA191FBF9EBE00E9CEA2 /* PBXContainerItemProxy */;
+		};
+		FA42FA251FBF9EBE00E9CEA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA42FA031FBF9EBE00E9CEA2 /* Jackvent : MounTrack */;
+			targetProxy = FA42FA241FBF9EBE00E9CEA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA42FA0B1FBF9EBE00E9CEA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA42FA0C1FBF9EBE00E9CEA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA42FA101FBF9EBE00E9CEA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA42FA111FBF9EBE00E9CEA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA42FA2A1FBF9EBE00E9CEA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA42FA2B1FBF9EBE00E9CEA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA42FA2D1FBF9EBE00E9CEA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LJY77F976;
+				INFOPLIST_FILE = "Jackvent : MounTrack/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jackvent---MounTrack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA42FA2E1FBF9EBE00E9CEA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LJY77F976;
+				INFOPLIST_FILE = "Jackvent : MounTrack/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jackvent---MounTrack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA42FA301FBF9EBE00E9CEA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LJY77F976;
+				INFOPLIST_FILE = "Jackvent : MounTrackTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jackvent---MounTrackTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jackvent : MounTrack.app/Jackvent : MounTrack";
+			};
+			name = Debug;
+		};
+		FA42FA311FBF9EBE00E9CEA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LJY77F976;
+				INFOPLIST_FILE = "Jackvent : MounTrackTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jackvent---MounTrackTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jackvent : MounTrack.app/Jackvent : MounTrack";
+			};
+			name = Release;
+		};
+		FA42FA331FBF9EBE00E9CEA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LJY77F976;
+				INFOPLIST_FILE = "Jackvent : MounTrackUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jackvent---MounTrackUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Jackvent : MounTrack";
+			};
+			name = Debug;
+		};
+		FA42FA341FBF9EBE00E9CEA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LJY77F976;
+				INFOPLIST_FILE = "Jackvent : MounTrackUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Jackvent---MounTrackUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Jackvent : MounTrack";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA42F9FF1FBF9EBE00E9CEA2 /* Build configuration list for PBXProject "Jackvent : MounTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA42FA2A1FBF9EBE00E9CEA2 /* Debug */,
+				FA42FA2B1FBF9EBE00E9CEA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA42FA2C1FBF9EBE00E9CEA2 /* Build configuration list for PBXNativeTarget "Jackvent : MounTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA42FA2D1FBF9EBE00E9CEA2 /* Debug */,
+				FA42FA2E1FBF9EBE00E9CEA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA42FA2F1FBF9EBE00E9CEA2 /* Build configuration list for PBXNativeTarget "Jackvent : MounTrackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA42FA301FBF9EBE00E9CEA2 /* Debug */,
+				FA42FA311FBF9EBE00E9CEA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA42FA321FBF9EBE00E9CEA2 /* Build configuration list for PBXNativeTarget "Jackvent : MounTrackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA42FA331FBF9EBE00E9CEA2 /* Debug */,
+				FA42FA341FBF9EBE00E9CEA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA42F9FC1FBF9EBE00E9CEA2 /* Project object */;
+}
